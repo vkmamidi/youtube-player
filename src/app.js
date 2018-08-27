@@ -10,7 +10,7 @@ import VideoDetail from './components/videodetails';
 import $ from 'jquery'
 import {Grid,Row,Col} from 'react-bootstrap';
 
-const API_KEY = 'AIzaSyB008zqkIvBy0l7x93rHllu56V6a_9mh8w';
+const API_KEY = "ËNTER YOUR API KEY OVER HERE";
 
 class App extends React.Component{
   constructor(props){
