@@ -1,8 +1,6 @@
 import React from 'react';
-// import $ from 'jquery';
-import {Grid,Row,Col} from 'react-bootstrap';
 
-const API_KEY = 'AIzaSyB008zqkIvBy0l7x93rHllu56V6a_9mh8w';
+
 
 class VideoDetail extends React.Component{
   
