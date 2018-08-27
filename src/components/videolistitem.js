@@ -7,8 +7,8 @@ export const VideoListItem = (props)=>{
 
     return(
 
-        <div onClick={props.onUserSelected(video)} className='item-list'>
-        <div className='item-list-margin'>
+        <div onClick={()=> props.onUserSelected(video)} className='list-item'>
+        <div className='list-item-margin'>
         <Media>
         <Media.Left>
         <img src={imageUrl}/>

@@ -1,5 +1,6 @@
 import React from 'react';
 // import $ from 'jquery';
+import {Grid,Row,Col} from 'react-bootstrap';
 
 const API_KEY = 'AIzaSyB008zqkIvBy0l7x93rHllu56V6a_9mh8w';
 
@@ -25,13 +26,18 @@ class VideoDetail extends React.Component{
 
 
     return (
+        <div className='video-detail'>
         <div>
+        <iframe className='detail-screen' src={url}></iframe>
+        </div>
+        <div className='details'>
         <div>
-        <iframe src={url}></iframe>
+        <strong>Title:</strong>{video.snippet.title}
         </div>
         <div>
-        <div>{video.snippet.title} {this.props.views} {this.props.likes} {this.props.dislikes}</div>
-        <div>{video.snippet.description}</div>
+         <strong>Views:</strong>{this.props.views} <strong>Likes:</strong>{this.props.likes} <strong>Dislikes:</strong>{this.props.dislikes}
+         </div>
+        <div><strong>Description:</strong>{video.snippet.description}</div>
         </div>
         </div>
     )
