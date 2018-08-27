@@ -143,7 +143,7 @@ class App extends React.Component{
 
   
   videoSearch = (search)=>{
-    YTSearch({key:API_KEY,term:search,max:5},(data)=>{
+    YTSearch({key:API_KEY,term:search},(data)=>{
         console.log(data)
       this.setState({
         videos:data,
