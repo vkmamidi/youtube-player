@@ -10,6 +10,7 @@ import VideoDetail from './components/videodetails';
 import $ from 'jquery'
 import {Grid,Row,Col} from 'react-bootstrap';
 
+// Enter your api key after generating one from https://developers.google.com/youtube/
 const API_KEY = "ËNTER YOUR API KEY OVER HERE";
 
 class App extends React.Component{
